@@ -1,8 +1,5 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/TGRTON/TegroTONbot">
-    <img src="" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">TegroTONbot - Telegram bot</h3>
 
