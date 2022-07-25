@@ -36,8 +36,6 @@
 
 ## About The Project
 
-![Screen Shot](https://smoservice.vc/TGBot/avatar.JPG)
-
 This project contains everything you need to launch your own Telegram bot quickly.
 
 This bot is designed for communication with interested audience, TGR presale, buying cryptocurrency TON and also has referral program.
