@@ -528,7 +528,7 @@ elseif( preg_match("/".str_replace("?", "", $text[$langcode][71])."/", $data['me
 		$url = 'https://t.me/tegrocatnft';
 		$arInfo["inline_keyboard"][0][0]["text"] = $text[$langcode][72];
 		$arInfo["inline_keyboard"][0][0]["url"] = rawurldecode($url);	
-		$url2 = 'https://t.me/gusevself';
+		$url2 = 'https://t.me/TegroMoney';
 		$arInfo["inline_keyboard"][1][0]["text"] = $text[$langcode][73];
 		$arInfo["inline_keyboard"][1][0]["url"] = rawurldecode($url2);	
 		$arInfo["inline_keyboard"][2][0]["callback_data"] = "checksubscr";
@@ -1258,7 +1258,7 @@ else{
 		elseif( preg_match("/checksubscr/", $data['callback_query']['data']) ){	
 		
 			$channel_id1 = "@tegrocatnft";
-			$channel_id2 = "@gusevself";
+			$channel_id2 = "@TegroMoney";
 			
 			$ch = curl_init('https://api.telegram.org/bot' . TOKEN . '/getChatMember');  
 			curl_setopt($ch, CURLOPT_POST, 1);  
